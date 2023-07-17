@@ -1,0 +1,1 @@
+declare module 'src/components/MovieCard/react-rating-stars-component';

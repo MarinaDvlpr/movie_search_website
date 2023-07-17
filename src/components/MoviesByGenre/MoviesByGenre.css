@@ -1,0 +1,29 @@
+.movieByGenre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgba(4, 4, 4, 0.93);
+    min-height: 100vh;
+}
+.movieByGenre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+}
+.movieByGenre .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.movieByGenre.light-theme {
+    background-color: rgb(226, 223, 223);
+}
